@@ -3614,12 +3614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "867f0de5e31f36079ddfaacbf2e2dc96781ac4c6"
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/867f0de5e31f36079ddfaacbf2e2dc96781ac4c6",
-                "reference": "867f0de5e31f36079ddfaacbf2e2dc96781ac4c6",
+                "url": "https://api.github.com/repos/nette/schema/zipball/9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
+                "reference": "9522dad6211c4d995a01a9ac529da88d0b0ba7b5",
                 "shasum": ""
             },
             "require": {
@@ -3668,7 +3668,7 @@
                 "issues": "https://github.com/nette/schema/issues",
                 "source": "https://github.com/nette/schema/tree/v1.3.1"
             },
-            "time": "2024-10-05T02:14:17+00:00"
+            "time": "2024-10-05T03:01:50+00:00"
         },
         {
             "name": "nette/utils",
@@ -3908,12 +3908,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:obelaw/erp.git",
-                "reference": "87b781a5ccbf33b70e5237bb729a9658e7f99021"
+                "reference": "077974c95146a4a98c2b004eb044b25500da11c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/erp/zipball/87b781a5ccbf33b70e5237bb729a9658e7f99021",
-                "reference": "87b781a5ccbf33b70e5237bb729a9658e7f99021",
+                "url": "https://api.github.com/repos/obelaw/erp/zipball/077974c95146a4a98c2b004eb044b25500da11c8",
+                "reference": "077974c95146a4a98c2b004eb044b25500da11c8",
                 "shasum": ""
             },
             "require": {
@@ -3955,7 +3955,7 @@
                 "source": "https://github.com/obelaw/erp/tree/main",
                 "issues": "https://github.com/obelaw/erp/issues"
             },
-            "time": "2024-10-05T02:21:58+00:00"
+            "time": "2024-10-05T16:06:03+00:00"
         },
         {
             "name": "obelaw/o-configs",
