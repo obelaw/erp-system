@@ -3536,24 +3536,24 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188"
+                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
-                "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
+                "url": "https://api.github.com/repos/nette/schema/zipball/8de8c4e8669f978835e14e4ad2291935a022ee40",
+                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
-                "php": "8.1 - 8.3"
+                "php": "8.1 - 8.4"
             },
             "require-dev": {
-                "nette/tester": "^2.4",
+                "nette/tester": "^2.5.2",
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -3592,9 +3592,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.3.0"
+                "source": "https://github.com/nette/schema/tree/v1.3.1"
             },
-            "time": "2023-12-11T11:54:22+00:00"
+            "time": "2024-10-05T00:06:25+00:00"
         },
         {
             "name": "nette/utils",
@@ -3834,12 +3834,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:obelaw/erp.git",
-                "reference": "503adf9c505c72a83eecfc9c1712b2cf97727704"
+                "reference": "4b89f92b356f3fd66f6ce0904f9966fad5169969"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/erp/zipball/503adf9c505c72a83eecfc9c1712b2cf97727704",
-                "reference": "503adf9c505c72a83eecfc9c1712b2cf97727704",
+                "url": "https://api.github.com/repos/obelaw/erp/zipball/4b89f92b356f3fd66f6ce0904f9966fad5169969",
+                "reference": "4b89f92b356f3fd66f6ce0904f9966fad5169969",
                 "shasum": ""
             },
             "require": {
@@ -3880,7 +3880,7 @@
                 "source": "https://github.com/obelaw/erp/tree/main",
                 "issues": "https://github.com/obelaw/erp/issues"
             },
-            "time": "2024-10-02T05:11:55+00:00"
+            "time": "2024-10-05T01:18:38+00:00"
         },
         {
             "name": "obelaw/o-configs",
