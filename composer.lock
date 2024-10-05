@@ -1472,6 +1472,80 @@
             "time": "2024-09-23T14:10:16+00:00"
         },
         {
+            "name": "flowframe/laravel-trend",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flowframe/laravel-trend.git",
+                "reference": "391849c27a1d4791efae930746a51d982820bd3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flowframe/laravel-trend/zipball/391849c27a1d4791efae930746a51d982820bd3a",
+                "reference": "391849c27a1d4791efae930746a51d982820bd3a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "^8.37|^9|^10.0|^11.0",
+                "php": "^8.2",
+                "spatie/laravel-package-tools": "^1.4.3"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.3|^6.1|^8.0",
+                "orchestra/testbench": "^6.15|^7.0|^8.0|^9.0",
+                "pestphp/pest": "^1.18|^2.34",
+                "pestphp/pest-plugin-laravel": "^1.1|^2.3",
+                "spatie/laravel-ray": "^1.23",
+                "vimeo/psalm": "^4.8|^5.6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Flowframe\\Trend\\TrendServiceProvider"
+                    ],
+                    "aliases": {
+                        "Trend": "Flowframe\\Trend\\TrendFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flowframe\\Trend\\": "src",
+                    "Flowframe\\Trend\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Klopstra",
+                    "email": "lars@flowframe.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily generate model trends",
+            "homepage": "https://github.com/flowframe/laravel-trend",
+            "keywords": [
+                "Flowframe",
+                "laravel",
+                "laravel-trend"
+            ],
+            "support": {
+                "issues": "https://github.com/Flowframe/laravel-trend/issues",
+                "source": "https://github.com/Flowframe/laravel-trend/tree/v0.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/larsklopstra",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-27T09:20:30+00:00"
+        },
+        {
             "name": "fruitcake/php-cors",
             "version": "v1.3.0",
             "source": {
@@ -3540,12 +3614,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40"
+                "reference": "867f0de5e31f36079ddfaacbf2e2dc96781ac4c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/8de8c4e8669f978835e14e4ad2291935a022ee40",
-                "reference": "8de8c4e8669f978835e14e4ad2291935a022ee40",
+                "url": "https://api.github.com/repos/nette/schema/zipball/867f0de5e31f36079ddfaacbf2e2dc96781ac4c6",
+                "reference": "867f0de5e31f36079ddfaacbf2e2dc96781ac4c6",
                 "shasum": ""
             },
             "require": {
@@ -3594,7 +3668,7 @@
                 "issues": "https://github.com/nette/schema/issues",
                 "source": "https://github.com/nette/schema/tree/v1.3.1"
             },
-            "time": "2024-10-05T00:06:25+00:00"
+            "time": "2024-10-05T02:14:17+00:00"
         },
         {
             "name": "nette/utils",
@@ -3834,17 +3908,18 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:obelaw/erp.git",
-                "reference": "4b89f92b356f3fd66f6ce0904f9966fad5169969"
+                "reference": "87b781a5ccbf33b70e5237bb729a9658e7f99021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/erp/zipball/4b89f92b356f3fd66f6ce0904f9966fad5169969",
-                "reference": "4b89f92b356f3fd66f6ce0904f9966fad5169969",
+                "url": "https://api.github.com/repos/obelaw/erp/zipball/87b781a5ccbf33b70e5237bb729a9658e7f99021",
+                "reference": "87b781a5ccbf33b70e5237bb729a9658e7f99021",
                 "shasum": ""
             },
             "require": {
                 "conedevelopment/blade-filters": "^1.0@dev",
                 "filament/filament": "^3.2",
+                "flowframe/laravel-trend": "^0.3.0",
                 "laravel/framework": "^11.9",
                 "milon/barcode": "^11.0",
                 "obelaw/o-configs": "^1.0",
@@ -3880,7 +3955,7 @@
                 "source": "https://github.com/obelaw/erp/tree/main",
                 "issues": "https://github.com/obelaw/erp/issues"
             },
-            "time": "2024-10-05T01:18:38+00:00"
+            "time": "2024-10-05T02:21:58+00:00"
         },
         {
             "name": "obelaw/o-configs",
