@@ -3908,12 +3908,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:obelaw/erp.git",
-                "reference": "678f5d7e8099581907c1725060705df09bf668a4"
+                "reference": "ce56166bb4829652351b8c8e536b2eea73756b3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/erp/zipball/678f5d7e8099581907c1725060705df09bf668a4",
-                "reference": "678f5d7e8099581907c1725060705df09bf668a4",
+                "url": "https://api.github.com/repos/obelaw/erp/zipball/ce56166bb4829652351b8c8e536b2eea73756b3c",
+                "reference": "ce56166bb4829652351b8c8e536b2eea73756b3c",
                 "shasum": ""
             },
             "require": {
@@ -3955,7 +3955,7 @@
                 "source": "https://github.com/obelaw/erp/tree/main",
                 "issues": "https://github.com/obelaw/erp/issues"
             },
-            "time": "2024-10-07T22:13:05+00:00"
+            "time": "2024-10-07T23:53:02+00:00"
         },
         {
             "name": "obelaw/o-configs",
