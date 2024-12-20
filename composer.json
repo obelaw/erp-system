@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "obelaw/erp-system",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
@@ -64,20 +64,6 @@
             "php-http/discovery": true
         }
     },
-    "repositories": [
-        {
-            "type": "github",
-            "url": "git@github.com:obelaw/erp.git"
-        },
-        {
-            "type": "github",
-            "url": "git@github.com:obelaw/twist.git"
-        },
-        {
-            "type": "github",
-            "url": "git@github.com:obelaw/permit.git"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
