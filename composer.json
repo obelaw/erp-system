@@ -1,5 +1,5 @@
 {
-    "name": "obelaw/erp-system",
+    "name": "obelaw/obelaw-system",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
@@ -8,7 +8,8 @@
         "php": "^8.2",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
-        "obelaw/erp": "dev-main"
+        "obelaw/permit": "dev-main",
+        "obelaw/twist": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

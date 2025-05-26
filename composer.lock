@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6de721846686faf8f6718dfc7d8334ad",
+    "content-hash": "fa32740b6ae62d0ad7e687b644bbf63d",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -350,63 +350,6 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
-        },
-        {
-            "name": "conedevelopment/blade-filters",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/conedevelopment/blade-filters.git",
-                "reference": "c64d39f2de18b05b7f62ca2911fe85a903f4007b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/conedevelopment/blade-filters/zipball/c64d39f2de18b05b7f62ca2911fe85a903f4007b",
-                "reference": "c64d39f2de18b05b7f62ca2911fe85a903f4007b",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0",
-                "illuminate/view": "^8.0 || ^9.0 || ^10.0 || ^11.0",
-                "php": "^7.3 || ^8.0"
-            },
-            "require-dev": {
-                "laravel/laravel": "9.x-dev",
-                "phpunit/phpunit": "^9.5 || ^10.5"
-            },
-            "default-branch": true,
-            "type": "project",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Pine\\BladeFilters\\BladeFiltersServiceProvider"
-                    ]
-                },
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Pine\\BladeFilters\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cone Development",
-                    "email": "hello@conedevelopment.com"
-                }
-            ],
-            "description": "Use filters easily in your blade templates.",
-            "support": {
-                "issues": "https://github.com/conedevelopment/blade-filters/issues",
-                "source": "https://github.com/conedevelopment/blade-filters/tree/master"
-            },
-            "time": "2024-04-23T05:21:23+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -1472,80 +1415,6 @@
                 "source": "https://github.com/filamentphp/filament"
             },
             "time": "2024-12-17T13:03:07+00:00"
-        },
-        {
-            "name": "flowframe/laravel-trend",
-            "version": "v0.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Flowframe/laravel-trend.git",
-                "reference": "391849c27a1d4791efae930746a51d982820bd3a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Flowframe/laravel-trend/zipball/391849c27a1d4791efae930746a51d982820bd3a",
-                "reference": "391849c27a1d4791efae930746a51d982820bd3a",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "^8.37|^9|^10.0|^11.0",
-                "php": "^8.2",
-                "spatie/laravel-package-tools": "^1.4.3"
-            },
-            "require-dev": {
-                "nunomaduro/collision": "^5.3|^6.1|^8.0",
-                "orchestra/testbench": "^6.15|^7.0|^8.0|^9.0",
-                "pestphp/pest": "^1.18|^2.34",
-                "pestphp/pest-plugin-laravel": "^1.1|^2.3",
-                "spatie/laravel-ray": "^1.23",
-                "vimeo/psalm": "^4.8|^5.6"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Flowframe\\Trend\\TrendServiceProvider"
-                    ],
-                    "aliases": {
-                        "Trend": "Flowframe\\Trend\\TrendFacade"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Flowframe\\Trend\\": "src",
-                    "Flowframe\\Trend\\Database\\Factories\\": "database/factories"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Lars Klopstra",
-                    "email": "lars@flowframe.nl",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Easily generate model trends",
-            "homepage": "https://github.com/flowframe/laravel-trend",
-            "keywords": [
-                "Flowframe",
-                "laravel",
-                "laravel-trend"
-            ],
-            "support": {
-                "issues": "https://github.com/Flowframe/laravel-trend/issues",
-                "source": "https://github.com/Flowframe/laravel-trend/tree/v0.3.0"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/larsklopstra",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-09-27T09:20:30+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -3337,80 +3206,6 @@
             "time": "2024-03-31T07:05:07+00:00"
         },
         {
-            "name": "milon/barcode",
-            "version": "v11.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/milon/barcode.git",
-                "reference": "1f4031adb52146bb7fbe88ef42214011376f9cbe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/milon/barcode/zipball/1f4031adb52146bb7fbe88ef42214011376f9cbe",
-                "reference": "1f4031adb52146bb7fbe88ef42214011376f9cbe",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^7.0|^8.0|^9.0|^10.0 | ^11.0",
-                "php": "^7.3 | ^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "aliases": {
-                        "DNS1D": "Milon\\Barcode\\Facades\\DNS1DFacade",
-                        "DNS2D": "Milon\\Barcode\\Facades\\DNS2DFacade"
-                    },
-                    "providers": [
-                        "Milon\\Barcode\\BarcodeServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Milon\\Barcode": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nuruzzaman Milon",
-                    "email": "contact@milon.im"
-                }
-            ],
-            "description": "Barcode generator like Qr Code, PDF417, C39, C39+, C39E, C39E+, C93, S25, S25+, I25, I25+, C128, C128A, C128B, C128C, 2-Digits UPC-Based Extention, 5-Digits UPC-Based Extention, EAN 8, EAN 13, UPC-A, UPC-E, MSI (Variation of Plessey code)",
-            "keywords": [
-                "CODABAR",
-                "CODE 128",
-                "CODE 39",
-                "barcode",
-                "datamatrix",
-                "ean",
-                "laravel",
-                "pdf417",
-                "qr code",
-                "qrcode"
-            ],
-            "support": {
-                "issues": "https://github.com/milon/barcode/issues",
-                "source": "https://github.com/milon/barcode/tree/v11.0.0"
-            },
-            "funding": [
-                {
-                    "url": "https://paypal.me/nuruzzamanmilon",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/milon",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-02-28T18:14:32+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "3.8.1",
             "source": {
@@ -3913,122 +3708,17 @@
             "time": "2024-11-21T10:39:51+00:00"
         },
         {
-            "name": "obelaw/erp",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/obelaw/erp.git",
-                "reference": "84931a1b890ad95a1e1bf8b16fed7cbfd1be6009"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/erp/zipball/84931a1b890ad95a1e1bf8b16fed7cbfd1be6009",
-                "reference": "84931a1b890ad95a1e1bf8b16fed7cbfd1be6009",
-                "shasum": ""
-            },
-            "require": {
-                "conedevelopment/blade-filters": "^1.0@dev",
-                "filament/filament": "^3.2",
-                "flowframe/laravel-trend": "^0.3.0",
-                "laravel/framework": "^11.9",
-                "milon/barcode": "^11.0",
-                "obelaw/o-configs": "^1.0",
-                "obelaw/permit": "dev-main",
-                "obelaw/twist": "dev-main",
-                "php": "^8.2"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Obelaw\\ERP\\ERPServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "helpers/autoload.php"
-                ],
-                "psr-4": {
-                    "": "addons/vendors/",
-                    "Obelaw\\ERP\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Karim Mohamed",
-                    "email": "komicho1996@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/obelaw/erp/issues",
-                "source": "https://github.com/obelaw/erp/tree/main"
-            },
-            "time": "2024-10-12T13:10:14+00:00"
-        },
-        {
-            "name": "obelaw/o-configs",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/obelaw/o-configs.git",
-                "reference": "b7218391423e2c9d5ead1e21cda24f5ca354f9d1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/o-configs/zipball/b7218391423e2c9d5ead1e21cda24f5ca354f9d1",
-                "reference": "b7218391423e2c9d5ead1e21cda24f5ca354f9d1",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^10.0||^11.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Obelaw\\Configs\\ConfigsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "files": [
-                    "helpers.php"
-                ],
-                "psr-4": {
-                    "Obelaw\\Configs\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Karim Mohamed",
-                    "email": "komicho1996@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/obelaw/o-configs/issues",
-                "source": "https://github.com/obelaw/o-configs/tree/v1.0.1"
-            },
-            "time": "2024-05-11T11:31:07+00:00"
-        },
-        {
             "name": "obelaw/permit",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/obelaw/permit.git",
-                "reference": "82dee136f4ef705830a09ecb7ffa8e27932efee8"
+                "reference": "bc7d464fb8dd2e7f256a9c2a39e5f2a283d2d4dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/permit/zipball/82dee136f4ef705830a09ecb7ffa8e27932efee8",
-                "reference": "82dee136f4ef705830a09ecb7ffa8e27932efee8",
+                "url": "https://api.github.com/repos/obelaw/permit/zipball/bc7d464fb8dd2e7f256a9c2a39e5f2a283d2d4dd",
+                "reference": "bc7d464fb8dd2e7f256a9c2a39e5f2a283d2d4dd",
                 "shasum": ""
             },
             "require": {
@@ -4059,7 +3749,7 @@
                 "issues": "https://github.com/obelaw/permit/issues",
                 "source": "https://github.com/obelaw/permit/tree/main"
             },
-            "time": "2024-12-07T21:32:32+00:00"
+            "time": "2025-04-15T10:11:48+00:00"
         },
         {
             "name": "obelaw/twist",
@@ -4067,18 +3757,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/obelaw/twist.git",
-                "reference": "ee2901321627a1862d86732d84c29201c48e2756"
+                "reference": "e0de437535ee552c8cf80cb2629419027da8b06b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/obelaw/twist/zipball/ee2901321627a1862d86732d84c29201c48e2756",
-                "reference": "ee2901321627a1862d86732d84c29201c48e2756",
+                "url": "https://api.github.com/repos/obelaw/twist/zipball/e0de437535ee552c8cf80cb2629419027da8b06b",
+                "reference": "e0de437535ee552c8cf80cb2629419027da8b06b",
                 "shasum": ""
             },
             "require": {
                 "filament/filament": "^3.2",
                 "laravel/framework": "^11.0",
-                "obelaw/permit": "*"
+                "pharaonic/laravel-executor": "^1.2"
             },
             "default-branch": true,
             "type": "library",
@@ -4109,7 +3799,7 @@
                 "issues": "https://github.com/obelaw/twist/issues",
                 "source": "https://github.com/obelaw/twist/tree/main"
             },
-            "time": "2024-11-18T03:53:45+00:00"
+            "time": "2025-05-25T14:31:46+00:00"
         },
         {
             "name": "openspout/openspout",
@@ -4203,6 +3893,72 @@
                 }
             ],
             "time": "2024-12-17T11:28:11+00:00"
+        },
+        {
+            "name": "pharaonic/laravel-executor",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Pharaonic/laravel-executor.git",
+                "reference": "6c7c05d1ca5e1cb31df362c580bde19ff26164c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Pharaonic/laravel-executor/zipball/6c7c05d1ca5e1cb31df362c580bde19ff26164c4",
+                "reference": "6c7c05d1ca5e1cb31df362c580bde19ff26164c4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=10.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pharaonic\\Laravel\\Executor\\ExecutorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Pharaonic\\Laravel\\Executor\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Moamen Eltouny (Raggi)",
+                    "email": "raggigroup@gmail.com"
+                },
+                {
+                    "name": "Karim Mohamed (Komtcho)",
+                    "email": "komicho1996@gmail.com"
+                },
+                {
+                    "name": "Moemen Gaballa",
+                    "email": "moemengaballa@gmail.com"
+                }
+            ],
+            "description": "Laravel Executor is a package that allows you to execute commands, actions, jobs, and automated tasks on your production server.",
+            "keywords": [
+                "laravel execute action on production server",
+                "laravel execute automated task on production server",
+                "laravel execute command on production server",
+                "laravel execute job on production server",
+                "laravel executor"
+            ],
+            "support": {
+                "issues": "https://github.com/Pharaonic/laravel-executor/issues",
+                "source": "https://github.com/Pharaonic/laravel-executor/tree/1.2.1"
+            },
+            "time": "2025-03-25T17:22:43+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -10956,9 +10712,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "obelaw/erp": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
